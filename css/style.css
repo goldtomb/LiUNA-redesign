@@ -1,0 +1,372 @@
+/*#########DEFAULTS###########*/
+
+/** BODY **/
+html > body {
+    min-height: 100%;
+}
+
+body {
+    line-height: 1;
+    background-color: white;
+    height: 100%;
+    position: relative;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container,
+.container-fluid {
+    overflow: auto;
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+/*##### HEADER #####*/
+
+.liuna-ftp {
+    display: block;
+    margin: auto;
+    height: 30px;
+}
+
+nav .nav-item{
+    color: white;
+}
+/* HOME */
+
+.jumbotron {
+    padding-top: 60px;
+    margin:auto;
+    padding-bottom: 0px;
+    background-color: white;
+}
+
+.jumbotron h3 {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.jumbotron h4 {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.section2 .row .col-sm-12 {
+    display: block;
+    margin: auto;
+    margin-left: 30px;
+}
+
+
+ul.cover-list {
+    padding-left: 20px;
+}
+
+
+
+/**** Calendar ****/
+
+.cal h4 {
+    margin-top: 50px;
+}
+
+.calendar {
+    color: #f49842;
+    font-size: 2em;
+}
+
+.cal{
+    text-align: center
+}
+
+iframe {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.cal > h5 {
+    font-size: 20px;
+}
+
+
+/**** PAY DUES ****/
+.dues {
+    padding-top: 20px;
+}
+
+.creditimg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/**** AGREEMENT ****/
+
+.agree {
+    display: block;
+    margin: auto;
+}
+
+.agree .row {
+    display: block;
+    margin: auto;
+}
+
+.agree .row .col-sm-12 {
+    display: block;
+    margin: auto;
+}
+
+.agree .row h3 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.agreement {
+    color: orange;
+    display: block;
+    margin: auto;
+}
+
+.agree-links .row .col {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+/**** Employers ****/
+
+span {
+    font-weight: bold;
+    text-align: center;
+}
+
+.employ {
+    margin-top: 50px;
+}
+
+.emp-info, h3, h4 {
+    text-align: center;
+}
+
+.emp-info p {
+    text-align: center
+}
+
+.row {
+    margin: auto;
+    width: 100%;
+}
+
+.col-lg-4 {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 15px;
+}
+
+.col-lg-12 {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 120px;
+    padding-top: 15px;
+}
+
+
+/**** TRAINING ****/
+
+.train {
+    display: block;
+    margin: auto;
+}
+
+.train .training {
+    display: block;
+    margin: auto;
+}
+
+.train .row {
+    margin: auto;
+}
+
+.train h4 {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.train p {
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+}
+
+.train ul {
+    padding-top: 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.train .trainingImg img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+h4 {
+    color: #f49842;
+}
+
+
+.training {
+    padding-top: 50px;
+}
+
+.training ul {
+    padding-left: 20px;
+    list-style: square;
+}
+
+.trainingImg {
+    padding-top: 50px;
+}
+
+/**** PHOTO GALLERY ****/
+.btn:focus,
+.btn:active,
+button:focus,
+button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#image-gallery .modal-footer {
+    display: block;
+}
+
+.thumb {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.gallery {
+    padding-top: 60px;
+}
+
+.gallery > img {
+    max-width: 100%;
+    width: 200px;
+    /* You can set the dimensions to whatever you want */
+    max-height: 200px;
+}
+
+/**** RESOURCES ****/
+
+.rsrc {
+    display: block;
+    margin: auto;
+}
+
+.rsrc .row {
+    margin: auto;
+}
+
+.rsrc .row .col-sm-6 {
+    display: block;
+    margin: auto;
+}
+
+.rsrc .rsrc-img {
+    display: block;
+    margin: auto;
+
+}
+
+.rsrc img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.rsrc-links {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+h5 {
+    color: #f49842;
+}
+
+.rsrc-links ul li {
+    list-style: none;
+}
+
+/**** CONTACT US****/
+
+h3 {
+    color: #f49842;
+}
+
+.contact {
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    line-height: .5;
+}
+
+.contact .paragraph {
+    padding-top: 40px;
+}
+.contact > h5 {
+    text-align: center;
+}
+
+/**** FOOTER ****/
+
+.footer {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+}
+
+.foot-container {
+min-height: 100%;
+}
+.login {
+    padding: 10px 0px 0px 20px;
+}
+
+.login a {
+    color: #fff;
+}
+
+.login a:hover {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.copyright {
+    float: right;
+    font-size: 10px;
+    color: #fff;
+    padding: 0px 20px 0px 0px;
+}
