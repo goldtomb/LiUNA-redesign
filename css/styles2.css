@@ -4,8 +4,8 @@ html {
 }
 
 body {
-    line-height: 1;
-    font-family: Lato, sans-serif;
+    line-height: 1.5;
+    font-family: Roboto;
     font-family: Roboto Slab;
     text-align: center;
 }
@@ -40,6 +40,7 @@ a:hover {
 }
 
 .dropdown-item {
+    text-align: center;
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -58,7 +59,7 @@ a:hover {
 /* The hero image */
 .hero-img {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/home-slide/IMG_0005.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/IMG_0005.JPG");
 
     /* Set a specific height */
     height: 70%;
@@ -89,7 +90,7 @@ a:hover {
     display: block;
 }
 
-.intro-text h3 {
+h3 {
     color: #F28B00;
     font-family: Roboto Slab, serif;
     font-size: 28px;
@@ -97,7 +98,305 @@ a:hover {
 }
 
 .intro-list {
-    text-align:justify;
+    text-align: justify;
+}
+
+
+/* Calendar.html */
+
+.title-div {
+    text-align: center;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+.cal {
+    font-size: 24px;
+}
+
+.calendar {
+    padding: 20px;
+    padding-top: 0;
+    font-size: .9em;
+}
+
+iframe {
+    display: block;
+}
+
+/*  Pay dues */
+.creditimg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h5 {
+    color: #F28B00;
+}
+
+.dues,
+.dues-row {
+    text-align: left;
+}
+
+/* training */
+
+.row .training {
+    padding: 40px;
+    text-align: justify;
+}
+
+.title-div p {
+    text-align: center;
+}
+
+.train ul {
+    text-align: left;
+}
+
+.training li {
+    width: 80%;
+    margin: auto;
+}
+
+.norcaltc {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.gallery {
+    padding: 20px;
+}
+
+.trainingImg a img {
+    padding: 20px;
+}
+
+/* agree */
+
+.agree {
+    margin: auto;
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.agree-links {
+    padding: 20px;
+}
+
+/* employeers */
+.employ {
+    font-size: .9em;
+    text-align: center;
+
+}
+.employ {
+    margin: auto;
+    align-content: center;
+}
+.employ p {
+    text-align: center;
+}
+}
+/* allied */
+.allies {
+    margin: auto;
+}
+.allies p {
+    text-align: center;
+}
+.allies .row {
+    font-size: .9em;
+}
+
+.carousel {
+    padding: 40px;
+    margin: auto;
+    min-width: 50%;
+}
+
+/* message */
+.message {
+    padding: 30px;
+    align-content: center;
+}
+
+.stmnt-content {
+    font-size: .8em;
+    font-style: italic;
+}
+
+.picture-content {
+    padding: 10px;
+}
+
+/* newsletter */
+.newsletter {
+    padding: 30px;
+}
+
+.news-frame {
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+}
+
+.slide {
+    padding-top: 100px;
+
+}
+
+/* poitical action */
+.parow h5,
+p {
+    text-align: left;
+}
+
+.pacon {
+    padding-bottom: 0px;
+}
+
+.patext {
+    padding: 40px;
+    display: block;
+    margin: auto;
+}
+
+h5.ceo {
+    text-align: center;
+}
+
+.patext2 {
+    display: block;
+    margin: auto;
+}
+
+.sttcap {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.ceo {
+    text-align: center;
+}
+
+.elect-link {
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+.elect-link:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ca-elect-link {
+    font-size: 15px;
+    text-align: center;
+}
+
+.voteimg {
+    max-height: auto;
+    width: 40%;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.vote-link {
+    padding-top: 10px;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 680px) {
+    .paimg {
+        max-height: 600px;
+    }
+
+    .patext2 {
+        padding-top: 10px;
+    }
+
+    .protect {
+        width: 100%;
+    }
+
+
+
+}
+
+/* photo-gallery */
+.btn:focus,
+.btn:active,
+button:focus,
+button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#image-gallery .modal-footer {
+    display: block;
+}
+
+.thumb {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.pgallery {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pgallery>img {
+    max-width: 100%;
+    width: 200px;
+    /* You can set the dimensions to whatever you want */
+    max-height: 200px;
+}
+
+.trainingImg a {
+    color: #F28B00;
+}
+
+.img-fluid {
+    padding-bottom: 20px;
+}
+
+.light-row {
+    width: 90%;
+    margin: auto;
+}
+
+/* contact  */
+
+.contact {
+    line-height: .5;
+    padding: 40px;
+}
+
+
+.contact > h5 {
+    text-align: center;
+}
+
+.contact-row {
+    margin: auto;
+}
+
+.contact-links > ul > li > a {
+    line-height: 25px;
+}
+
+h6 {
+    font-weight: black;
 }
 
 /* Footer */
