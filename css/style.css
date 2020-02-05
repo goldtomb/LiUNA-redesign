@@ -3,6 +3,7 @@
 /** BODY **/
 html > body {
     min-height: 100%;
+    line-height: 25px;
 }
 
 body {
@@ -21,6 +22,18 @@ body {
 * {
     margin: 0;
     padding: 0;
+    font-family: lato, sans-serif;
+    
+}
+
+h3,
+h4,
+h5 {
+    color: #F28B00;
+}
+
+a:hover {
+    color: #F28B00;
 }
 
 .container,
@@ -29,6 +42,8 @@ body {
     display: block;
     position: relative;
     padding-bottom: 100px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
 }
 
 /*##### HEADER #####*/
@@ -36,18 +51,71 @@ body {
 .liuna-ftp {
     display: block;
     margin: auto;
-    height: 30px;
+    height: auto;
+    width: 100px;
 }
 
-nav .nav-item{
-    color: white;
+.logo {
+    display: block;
+    height: auto;
+    width: 300px;
 }
+
+.logo-box {
+    display: block;
+    margin: auto;
+    margin: 50px;
+}
+
+.logo-img {
+    min-width: 100%;
+}
+
+.navbar-nav .nav-item {
+    color: white;
+    font-family: Roboto;
+}
+
+.navbar {
+    min-height: 100px;
+    letter-spacing: 0;
+}
+
 /* HOME */
 
+.shade-1 {
+    background-color: #fcb76c;
+    width: 100%;
+    padding: 50px 50px;
+    text-align: center;
+    font-family: Roboto;
+}
+
+.shade-1 h3 {
+    color: white;
+}
+
+.shade-2 {
+    background-color: #9fa4a6;
+    width: 100%;
+    padding: 50px 50px;
+    text-align: center;
+    font-family: Roboto;
+}
+
+.shade-3 {
+    background-color: #4c91d1;
+    width: 100%;
+    padding: 50px 50px;
+    text-align: center;
+    font-family: Roboto;
+}
+.shade-3 h3 {
+    color: white; 
+}
+
 .jumbotron {
-    padding-top: 60px;
-    margin:auto;
-    padding-bottom: 0px;
+    margin: auto;
     background-color: white;
 }
 
@@ -63,18 +131,99 @@ nav .nav-item{
     text-align: center;
 }
 
-.section2 .row .col-sm-12 {
+.section2 {
+    padding: 50px;
+    padding-top: 60px;
+    padding-bottom: 140px;
     display: block;
     margin: auto;
-    margin-left: 30px;
 }
-
 
 ul.cover-list {
     padding-left: 20px;
 }
 
+.protect-tainer {
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 100%;
+}
+.protect {
+    border: 3px solid black;
+    border-radius: 1%;
 
+    width: 60%;
+    height: auto;
+
+    margin: auto;
+    display: flex;
+
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.Mstatement {
+    padding-bottom: 110px;
+    padding-top: 50px;
+}
+
+.stmnt-content {
+    display: block;
+    margin: auto;
+    border: 1px black;
+    border-radius: 40px;
+    border-spacing: 100px;
+
+}
+
+.stmnt-content {
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin: 0;
+}
+
+.statement-H {
+    display: block;
+    margin: auto;
+    align-content: center;
+    padding-bottom: 30px;
+}
+
+.col-img h6 {
+    text-align: center;
+}
+
+.col-img img {
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+    padding-top: 25px;
+}
+
+.v-card {
+    display: block;
+    margin: auto;
+    align-content: center;
+}
+
+.Vimg {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-container {
+    display: block;
+    margin: auto;
+    padding: 40px;
+    margin-bottom: 80px;
+}
+
+.display-4 {
+    font-weight: bold;
+}
 
 /**** Calendar ****/
 
@@ -82,18 +231,17 @@ ul.cover-list {
     margin-top: 50px;
 }
 
-.calendar {
-    color: #f49842;
-    font-size: 2em;
+
+.cal {
+    text-align: center;
 }
 
-.cal{
-    text-align: center
-}
 
-iframe {
+.cal-frame {
     max-height: 100%;
     max-width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .cal > h5 {
@@ -104,6 +252,7 @@ iframe {
 /**** PAY DUES ****/
 .dues {
     padding-top: 20px;
+    padding-bottom: 120px;
 }
 
 .creditimg {
@@ -122,6 +271,7 @@ iframe {
 .agree .row {
     display: block;
     margin: auto;
+
 }
 
 .agree .row .col-sm-12 {
@@ -135,15 +285,24 @@ iframe {
 }
 
 .agreement {
-    color: orange;
     display: block;
     margin: auto;
 }
 
-.agree-links .row .col {
+.agree-links {
     display: block;
     margin: auto;
     text-align: center;
+    padding-bottom: 30px;
+}
+
+.agree-links:hover {
+    color: #F28B00;
+}
+
+.agree-links a {
+    text-decoration: none;
+
 }
 
 /**** Employers ****/
@@ -155,9 +314,12 @@ span {
 
 .employ {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.emp-info, h3, h4 {
+.emp-info,
+h3,
+h4 {
     text-align: center;
 }
 
@@ -192,8 +354,10 @@ span {
 /**** TRAINING ****/
 
 .train {
+
     display: block;
     margin: auto;
+
 }
 
 .train .training {
@@ -219,8 +383,7 @@ span {
 
 .train ul {
     padding-top: 20px;
-    text-align: center;
-    display: block;
+    text-align: cen display: block;
     margin: auto;
 }
 
@@ -228,10 +391,6 @@ span {
     display: block;
     margin: auto;
     max-width: 100%;
-}
-
-h4 {
-    color: #f49842;
 }
 
 
@@ -245,7 +404,14 @@ h4 {
 }
 
 .trainingImg {
-    padding-top: 50px;
+
+    display: block;
+    margin: auto;
+}
+
+.norcaltc {
+    text-align: center;
+    font-weight: 600;
 }
 
 /**** PHOTO GALLERY ****/
@@ -267,7 +433,9 @@ button:active {
 }
 
 .gallery {
-    padding-top: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
 }
 
 .gallery > img {
@@ -275,6 +443,10 @@ button:active {
     width: 200px;
     /* You can set the dimensions to whatever you want */
     max-height: 200px;
+}
+
+.img-fluid {
+    padding-bottom: 20px;
 }
 
 /**** RESOURCES ****/
@@ -310,22 +482,102 @@ button:active {
     padding-top: 50px;
 }
 
-h5 {
-    color: #f49842;
-}
 
 .rsrc-links ul li {
     list-style: none;
 }
 
-/**** CONTACT US****/
+/**** Political Action ****/
 
-h3 {
-    color: #f49842;
+.slide {
+    padding-top: 100px;
+
 }
 
+.pacon {
+    padding-bottom: 0px;
+}
+
+.paimg {
+    max-height: ;
+}
+
+.patext {
+    padding-top: 50px;
+    display: block;
+    margin: auto;
+}
+
+.patext2 {
+    padding-top: 120px;
+    display: block;
+    margin: auto;
+}
+
+.sttcap {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.ceo {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.elect-link {
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+.elect-link:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ca-elect-link {
+    font-size: 15px;
+    text-align: center;
+}
+
+.voteimg {
+    max-height: auto;
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.vote-link {
+    padding-top: 10px;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 680px) {
+    .paimg {
+        max-height: 600px;
+    }
+
+    .patext2 {
+        padding-top: 10px;
+    }
+
+    .protect {
+        width: 100%;
+    }
+
+    
+
+}
+
+/**** CONTACT US****/
+
+
 .contact {
-    padding-left: 50px;
     padding-top: 50px;
     padding-bottom: 100px;
     line-height: .5;
@@ -334,22 +586,84 @@ h3 {
 .contact .paragraph {
     padding-top: 40px;
 }
+
 .contact > h5 {
     text-align: center;
 }
+
+.contact-row {
+    margin: auto;
+}
+
+.contact-links > ul > li > a {
+    line-height: 25px;
+}
+
+.contact-space {
+    padding-bottom: 30px;
+}
+
+h6 {
+    font-weight: black;
+}
+
+/* NEWSLETTER */
+
+.newsletter {
+
+    overflow: hidden;
+}
+
+.news-row {
+    display: block;
+}
+
+.news-frame {
+    max-width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .news-frame {
+        width: 640px;
+        height: 300px;
+    }
+}
+
+
+/* ALLIES */
+
+.allies {
+    padding-top: 25px;
+    padding-bottom: 150px;
+}
+
+.carousel-row {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
 
 /**** FOOTER ****/
 
 .footer {
     width: 100%;
-    height: 70px;
+    height: 100px;
     position: absolute;
     bottom: 0;
 }
 
 .foot-container {
-min-height: 100%;
+    min-height: 100%;
 }
+
+.foot-container .row .col {
+    padding-top: 20px;
+}
+
 .login {
     padding: 10px 0px 0px 20px;
 }
@@ -366,7 +680,8 @@ min-height: 100%;
 
 .copyright {
     float: right;
-    font-size: 10px;
+    font-size: 12px;
     color: #fff;
-    padding: 0px 20px 0px 0px;
+    padding: 5px 20px 0px 0px;
+    line-height: 1.3;
 }

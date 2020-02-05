@@ -1,0 +1,126 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    line-height: 1;
+    font-family: Lato, sans-serif;
+    font-family: Roboto Slab;
+    text-align: center;
+}
+
+/* Navbar Styles */
+.logo {
+    display: block;
+    height: auto;
+    margin: auto;
+    width: 250px;
+}
+
+.dropdown-item {
+    font-size: 14px;
+}
+
+.navbar {
+    padding: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #F28B00;
+}
+
+a:hover {
+    color: #F28B00;
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    border: none;
+}
+
+.dropdown-item {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-item:hover {
+    color: #F28B00;
+}
+
+.container-fluid {
+    margin: 0;
+    display: block;
+    line-height: 1.5;
+}
+
+/* INDEX */
+/* Page Content */
+/* The hero image */
+.hero-img {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/home-slide/IMG_0005.JPG");
+
+    /* Set a specific height */
+    height: 70%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+
+/* Intro  */
+.intro-text {
+    margin: 50px;
+    display: block;
+}
+
+.intro-text h3 {
+    color: #F28B00;
+    font-family: Roboto Slab, serif;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+.intro-list {
+    text-align:justify;
+}
+
+/* Footer */
+footer {
+    font-size: 12px;
+    background-color: #4c91d1;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    height: 80px;
+    color: white;
+}
+
+footer .col a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .col a:hover {
+    color: #F28B00;
+    text-decoration: none;
+}
+
+.login {
+    color: white;
+}

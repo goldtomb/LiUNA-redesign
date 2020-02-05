@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+}
+a span {
+
+}
+a span {
+    color: white;
+}
+li a:hover {
+    font-weight: bolder;
+    font-size: 38px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.home {
+    max-width: 100%;
+    height: 100%;
+    background: url('images/004_33a.jpg');
+    background-size: cover;
+    padding-left: 10px;
+}
+
+.row {
+    align-items: center;
+}
+
+
+.main-nav{
+    width: 500px;
+    height:250px;
+    max-width: 100%;
+
+    background-color: #fdc32a;
+    border-radius: 50%;
+    box-shadow:10px 10px 30px #888888;
+}
+.main-nav{
+    width: 500px;
+    height:250px;
+    max-width: 100%;
+
+    background-color: #fdc32a;
+    border-radius: 50%;
+    box-shadow: white 120px;
+}
+.nav-list {
+    padding: 5px;
+    margin: 0px;
+    overflow: auto;
+    display: flex;
+
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.nav-item {
+    float: left;
+    max-width: 100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+}
